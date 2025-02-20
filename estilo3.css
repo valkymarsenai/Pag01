@@ -1,0 +1,42 @@
+.topo {
+    background: rgb(139, 208, 240); /* Define a cor de fundo */
+    height: 15%; /* Define altura do topo */
+    text-align: center; /* Centraliza o texto */
+    color: black; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+
+}
+.container {
+    display:flex
+}
+.navegacao {
+    background: rgb(127, 176, 248); /* Define cor de fundo */
+    width: 20%; /* Define largura da navegação */
+    writing-mode: horizontal; /* Rotaciona o texto verticalmente */
+    text-align: left; /* Centraliza o texto */
+    color:black; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.conteudo {
+    background: rgb(253, 246, 141); /* Define cor de fundo */
+    flex: 1; /* Ocupa o espaço restante */
+
+    color: black; /* Define cor do texto */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.rodape {
+    background: rgb(117, 142, 211); /* Define cor de fundo */
+    height: 10%; /* Define altura do rodapé */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
